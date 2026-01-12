@@ -33,6 +33,7 @@ If all pass, the post-commit hook runs:
 Logs are written to:
 - `artifacts/ifx/pre-commit/<timestamp>_<sha>.log`
 - `artifacts/ifx/post-commit/<timestamp>_<sha>.log`
+The `artifacts/` directory is gitignored by default.
 To disable the hook:
 ```bash
 git config --unset core.hooksPath
