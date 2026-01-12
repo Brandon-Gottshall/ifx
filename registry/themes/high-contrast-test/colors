@@ -1,0 +1,13 @@
+# high-contrast-test theme (lf colors file)
+# format: <pattern> <ANSI>
+di  01;31
+ln  01;33
+or  01;35
+ex  01;32
+fi  01;37
+pi  01;34
+so  01;36
+bd  01;33
+cd  01;35
+su  01;31
+sg  01;32
